@@ -42,3 +42,7 @@ for i in range(2,5):
 else:
     print('Te aviso que ya terminó el for. contador =>'+str(contador))
 print('\n')
+
+saludo = {'es':'hola', 'en':'hi'}
+for key, values in saludo.items():
+    print(f'key: {key} - values: {values}')
